@@ -35,7 +35,7 @@ const size_t   CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE        = 600;
 //TODO Define number of digits
 const size_t   CRYPTONOTE_DISPLAY_DECIMAL_POINT              = 8;
 //TODO Define minimum fee for transactions
-const uint64_t MINIMUM_FEE                                   = 1000;
+const uint64_t MINIMUM_FEE                                   = 10000;
 const uint64_t DEFAULT_DUST_THRESHOLD                        = MINIMUM_FEE;
 
 //TODO Define preferred block's target time
@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "bolsonarocoin";
-const char GENESIS_COINBASE_TX_HEX[]                         = "011e01ff0001d8d6c6cd9ace04029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101067bbcc0ae860c172d17a66bfc72f59fd52d345ed640eeafbc9d87754f65d846";
+const char GENESIS_COINBASE_TX_HEX[]                         = "";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
